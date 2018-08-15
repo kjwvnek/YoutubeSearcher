@@ -12,13 +12,15 @@ Framework(ex. React, Vue, Angular)의 사용없이 Vanilla JS로 SPA(Single Page
 ### Learning Aspect
 - Component 라이브러리를 구현해서 Component 단위로 화면을 렌더링
 - Router 라이브러리를 구현해서 Client-Side-Routing 활용
-- Infinity Scroll 구현
+- 다양한 인터렉션 구현
 
 ## Youtube API
 [Youtube Data API V3](https://developers.google.com/youtube/v3/getting-started?hl=ko) 사용
 
 ## Project
-### setting
+[Test Page](https://kjwvnek.github.io/YoutubeSearcher/)
+
+### Setting
 ~~~
 git clone https://github.com/kjwvnek/FakeTube.git
 
@@ -27,7 +29,7 @@ cd FakeTube
 npm install
 ~~~
 
-### start
+### Start
 ~~~
 npm start
 ~~~
