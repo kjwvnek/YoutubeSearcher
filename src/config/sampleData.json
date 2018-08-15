@@ -1,0 +1,1662 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/gGUnkwcii4iotuq6TZWEBNGH3q0\"",
+  "nextPageToken": "CDIQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 36937,
+    "resultsPerPage": 50
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/O1aqdFvzRrNB1YcaPokq-2Ylsl4\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "S3H5dRmF82k"
+      },
+      "snippet": {
+        "publishedAt": "2018-01-27T11:22:37.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "JSConf.Asia 2018 Day 3 - Live",
+        "description": "From the Capitol Theatre in Singapore on the 27th of January 2018 Full Program at: https://2018.jsconf.asia License: For reuse of this video under a more permissive license please get in touch...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/S3H5dRmF82k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/S3H5dRmF82k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/S3H5dRmF82k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/OSfX7cq6Lq1fmkiR2JD9LWiAWyo\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "sRPOyYILD3E"
+      },
+      "snippet": {
+        "publishedAt": "2018-01-25T10:37:53.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "JSConf.Asia 2018 Day 1 - Live",
+        "description": "From the Capitol Theatre in Singapore on the 25th of January 2018 Full Program at: https://2018.jsconf.asia License: For reuse of this video under a more permissive license please get in touch...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sRPOyYILD3E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sRPOyYILD3E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sRPOyYILD3E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/pAezurAngRdnXm-9BD5a5rVrhyM\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7vUs5yOuv-o"
+      },
+      "snippet": {
+        "publishedAt": "2017-05-25T13:46:44.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Addy Osmani: The Browser Hackers Guide To Instantly Loading Everything | JSConf EU 2017",
+        "description": "http://2017.jsconf.eu/speakers/addy-osmani-the-browser-hackers-guide-to-instantly-loading-everything.html Venture deep into the belly of the browser to uncover the secret incantations to instantly...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7vUs5yOuv-o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7vUs5yOuv-o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7vUs5yOuv-o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/D0MYT9Rfe24bkJD19bjHfvBXV3g\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bac0dGQbUto"
+      },
+      "snippet": {
+        "publishedAt": "2017-12-01T08:18:06.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Dan Callahan: Practical WebAssembly | JSConf Budapest 2017",
+        "description": "WebAssembly is a new low-level, high-performance complement to JavaScript on the Web. As an open standard developed by Mozilla, Google, Microsoft, and Apple, WebAssembly runs everywhere that...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bac0dGQbUto/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bac0dGQbUto/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bac0dGQbUto/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/hd-iCB8shnhF5HM4NzOLlNDYe60\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Wo0qiGPSV-s"
+      },
+      "snippet": {
+        "publishedAt": "2017-05-14T11:05:22.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Anjana Vakil: Immutable data structures for functional JS | JSConf EU 2017",
+        "description": "http://2017.jsconf.eu/speakers/anjana-vakil-immutable-data-structures-for-functional-js.html Functional programming has been gaining a lot of popularity in the JS community, and with good...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Wo0qiGPSV-s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Wo0qiGPSV-s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Wo0qiGPSV-s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/r7xt-iFzv2Ts8cl8xa4lgEdExGs\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "p-iiEDtpy6I"
+      },
+      "snippet": {
+        "publishedAt": "2017-05-16T13:48:23.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Franziska Hinkelmann: JavaScript engines - how do they even? | JSConf EU 2017",
+        "description": "http://2017.jsconf.eu/speakers/franziska-hinkelmann-javascript-engines-how-do-they-even.html Want to know how JavaScript engines work? Why is JavaScript so fast? What is just-in-time compilation?...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/p-iiEDtpy6I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/p-iiEDtpy6I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/p-iiEDtpy6I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/PQdkz_TQB2mqSkV98GAB87T42iI\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UUl0BZgjm3o"
+      },
+      "snippet": {
+        "publishedAt": "2017-12-01T08:18:06.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Sandrina Pereira: How can Javascript improve your CSS mixins | JSConf Budapest 2017",
+        "description": "Open a new window of possibilities to CSS: Faster compilation time, advanced logic, better styles scalability with Unit Testing and more. How can we use Javascript in order expand the potential...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UUl0BZgjm3o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UUl0BZgjm3o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UUl0BZgjm3o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/pS3uZFUfZGT2SM3z4qGM9Z1BQWM\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8aGhZQkoFbQ"
+      },
+      "snippet": {
+        "publishedAt": "2014-10-09T15:08:26.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Philip Roberts: What the heck is the event loop anyway? | JSConf EU 2014",
+        "description": "JavaScript programmers like to use words like, “event-loop”, “non-blocking”, “callback”, “asynchronous”, “single-threaded” and “concurrency”. We say things like “don't...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8aGhZQkoFbQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8aGhZQkoFbQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8aGhZQkoFbQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/RZYWUyZJlffp_hp4HUA6wIsY_yA\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NLtL-EEclRc"
+      },
+      "snippet": {
+        "publishedAt": "2016-09-19T11:05:57.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Azat Mardan: You Don't Know Node.js - JSConf Iceland 2016",
+        "description": "\"Node.js is fast and scalable web-oriented non-blocking I/O built on top of Google Chrome V8 engine. Almost every web developer uses Node or Node-based tools to some extent. However, Node has...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NLtL-EEclRc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NLtL-EEclRc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NLtL-EEclRc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/gaYIN_Ft16U0zTtlnM6Bz7gFlbA\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_5X2aB_mNp4"
+      },
+      "snippet": {
+        "publishedAt": "2017-12-01T08:18:06.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Eirik Vullum: JavaScript Metaprogramming - ES6 Proxy Use and Abuse | JSConf Budapest 2017",
+        "description": "This non-polyfillable / non-transpilable feature now has first class support in all the latest browsers and node.js! But what is it even? And why do I need it? Let's take a closer look...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_5X2aB_mNp4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_5X2aB_mNp4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_5X2aB_mNp4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/MOLm2TfR0YZPe5aX_XDKzxXH4RM\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "wQ-jn1KYUkQ"
+      },
+      "snippet": {
+        "publishedAt": "2017-12-01T08:18:06.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Anna Migas: Make your animations perform well | JSConf Budapest 2017",
+        "description": "Animations have been around the web for some time already; badly implemented can be deadly to the website's performance and the user's delight. Let's learn together how the browser renders...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wQ-jn1KYUkQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wQ-jn1KYUkQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wQ-jn1KYUkQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/kSO-8hfN7UWjvC_Obu-jsiQEXl0\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4dv53Ft4s9c"
+      },
+      "snippet": {
+        "publishedAt": "2017-05-20T16:25:40.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Sarah Saltrick Meyer: Two Problems: Regular Expressions for Revolutionaries | JSConf EU 2017",
+        "description": "http://2017.jsconf.eu/speakers/sarah-saltrick-meyer-two-problems-regular-expressions-for-revolutionaries.html There's an old software joke that goes: “Some people, when confronted with...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4dv53Ft4s9c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4dv53Ft4s9c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4dv53Ft4s9c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/36AgwS1HO-DoGxSIlW9UhaMNcBk\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SgOh46SWId0"
+      },
+      "snippet": {
+        "publishedAt": "2017-11-17T08:53:24.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "JSConf.Asia 2016 - A look back",
+        "description": "Want to join us in January? Get your tickets for JSConf.Asia 2018 at https://events.pouchnation.com/event/jsconfasia2018 This video is look back at Southeast Asia's largest web developer conferenc...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SgOh46SWId0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SgOh46SWId0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SgOh46SWId0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/JMlOlA4_ZVYRqTesdMlzEJD5uaA\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "z8hG-3Ak_b4"
+      },
+      "snippet": {
+        "publishedAt": "2017-06-06T14:00:38.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Denis Radin: Applying NASA coding standards to JavaScript | JSConf EU 2017",
+        "description": "http://2017.jsconf.eu/speakers/denis-radin-applying-nasa-coding-standards-to-javascript.html Jet Propulsion Laboratory - scientific institution making research and development for NASA. Their...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/z8hG-3Ak_b4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/z8hG-3Ak_b4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/z8hG-3Ak_b4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/WTsRBzhZC4kcaIua8JgxsjWreV0\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lil4YCCXRYc"
+      },
+      "snippet": {
+        "publishedAt": "2015-06-22T14:46:11.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Jafar Husain: Async Programming in ES7 | JSConf US 2015",
+        "description": "Currently there are ES7 features proposed for async programming that have never been seen in a programming language before. If accepted, these proposals could allow entire JS applications to...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lil4YCCXRYc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lil4YCCXRYc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lil4YCCXRYc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/CxJApR1gKjd_Si9PcS8aBhOBBsg\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SmE4OwHztCc"
+      },
+      "snippet": {
+        "publishedAt": "2015-10-17T18:32:40.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Ryan Seddon: So how does the browser actually render a website | JSConf EU 2015",
+        "description": "We all take for granted that when we push enter in the browsers address bar, magic happens. The browser gets our HTML, that intern requests all the dependencies, insert magic, other things...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SmE4OwHztCc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SmE4OwHztCc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SmE4OwHztCc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/wfNzrssXZXYrIH6T_MEZsad4VhI\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lCn-XCASn98"
+      },
+      "snippet": {
+        "publishedAt": "2017-05-06T12:05:22.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "@nested_loops opening JSConf EU 2017",
+        "description": "Everything you see in this video (sound, projection, lights) is controlled by JavaScript. Track on SoundCloud: https://soundcloud.com/nested-loops/people-got-mad-javascript Implementation:...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lCn-XCASn98/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lCn-XCASn98/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lCn-XCASn98/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/LDbFSZziNy4ezPVXWUIyKO32-FU\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "I7IdS-PbEgI"
+      },
+      "snippet": {
+        "publishedAt": "2015-02-03T18:09:29.000Z",
+        "channelId": "UCP_lo1MFyx5IXDeD9s_6nUw",
+        "title": "React.js Conf 2015 - Immutable Data and React",
+        "description": "Lee Byron, Facebook Immutable data unlocks powerful memoization techniques and prohibits accidental coupling via shared mutable state. It's no accident that these are the the same benefits...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/I7IdS-PbEgI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/I7IdS-PbEgI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/I7IdS-PbEgI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Facebook Developers",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/HNReulLAgjEG0oyMDZcZIJq1WsM\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DQk9TqO5ets"
+      },
+      "snippet": {
+        "publishedAt": "2016-09-19T11:05:57.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Vitaly Friedman: Dirty little front-end tricks - JSConf Iceland 2016",
+        "description": "Do you love the object tag, too? How do you feel about responsive image maps? Have you ever tried to work around complex tables, nasty carousels, endless country selectors and complex user...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DQk9TqO5ets/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DQk9TqO5ets/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DQk9TqO5ets/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/DrMLlDf3Q3f2LxpLIV2q3mCY-JM\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "AeUCN2lPqL8"
+      },
+      "snippet": {
+        "publishedAt": "2016-06-09T08:40:36.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Safia Abdalla: The Hitchhiker's Guide to All Things Memory in Javascript - JSConf Budapest 2016",
+        "description": "Unlike C and other low-level programming languages, Javascript takes away the pain of memory management and garbage collection from the programmer. However, this doesn't mean that developers...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AeUCN2lPqL8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AeUCN2lPqL8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AeUCN2lPqL8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/HorTCZSLWpiCNW8kLSrIJ16MXYE\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "e-5obm1G_FY"
+      },
+      "snippet": {
+        "publishedAt": "2016-06-14T17:06:44.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Anjana Vakil: Learning Functional Programming with JavaScript - JSUnconf 2016",
+        "description": "Anjana's next talk at JSConf EU in May: http://2017.jsconf.eu/speakers/anjana-vakil-immutable-data-structures-for-functional-js.html Slides: https://slidr.io/vakila/learning-functional-programming...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/e-5obm1G_FY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/e-5obm1G_FY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/e-5obm1G_FY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/pxs-3HJ6QaibYS6HMTtuwot8K8Q\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "a8W5VVGO-jA"
+      },
+      "snippet": {
+        "publishedAt": "2015-06-05T09:32:36.000Z",
+        "channelId": "UCCjbi45K7abWuGGm2yfDg5w",
+        "title": "Asynchronous JavaScript at Netflix by Matthew Podwysowski at JSConf Budapest 2015",
+        "description": "Slides: https://github.com/mattpodwysocki/jsconfbp-2015 http://jsconfbp.com/#mattpodwysocki What's does a mouse drag event have in common with an Array of numbers? The answer to this...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/a8W5VVGO-jA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/a8W5VVGO-jA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/a8W5VVGO-jA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf Budapest",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/BBUl5EvIqv780sg8VWKYMwECuws\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "x7cQ3mrcKaY"
+      },
+      "snippet": {
+        "publishedAt": "2013-10-30T15:22:30.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Pete Hunt: React: Rethinking best practices -- JSConf EU 2013",
+        "description": "Slides: http://www.slideshare.net/floydophone/react-preso-v2 React, the new open-source JS library from Facebook and Instagram, is a different way to write JavaScript apps. When it was introduced...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/x7cQ3mrcKaY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/x7cQ3mrcKaY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/x7cQ3mrcKaY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/M31wlyrSoh8f6JeLOEOyCq-A6aE\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "LY6y3HbDVmg"
+      },
+      "snippet": {
+        "publishedAt": "2017-05-16T13:48:37.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Jason Miller: Preact: Into the void 0 | JSConf EU 2017",
+        "description": "http://2017.jsconf.eu/speakers/jason-miller-preact.html Front-end developers sit atop a massive amount of technology, often treating whole pieces of our application as opaque functionality....",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LY6y3HbDVmg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LY6y3HbDVmg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LY6y3HbDVmg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/BFSLgN-x7TnazAIXOFn6TjkBO-Y\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "qNmOUzxGg0Y"
+      },
+      "snippet": {
+        "publishedAt": "2016-06-16T10:12:55.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Anand Vemuri: Offensive and Defensive Strategies for Client-Side JS Security - JSConf Budapest 2016",
+        "description": "Secure software development principles have become of paramount importance in recent times. Studies have revealed that corporate cyber security breaches have most frequently occurred at the...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qNmOUzxGg0Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qNmOUzxGg0Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qNmOUzxGg0Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/_7Her6enyWzB1Fyww8zqm8ajjto\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uNVlQ1yPsto"
+      },
+      "snippet": {
+        "publishedAt": "2016-12-20T15:27:09.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Marco Cecconi: High Performance Architecture Of Stack Overflow - JSConf.Asia 2016",
+        "description": "Stack Overflow is a website that helps millions of developers every day. On the other hand, not many developers realize that this site serves them with incredible efficiency. For example, a...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uNVlQ1yPsto/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uNVlQ1yPsto/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uNVlQ1yPsto/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/Jj6Rmna8-Sh5MobzEhlwhxmRnp4\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vypCsVm5z28"
+      },
+      "snippet": {
+        "publishedAt": "2017-05-20T16:26:29.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Ashley Williams:  A Brief History of Modularity | JSConf EU 2017",
+        "description": "http://2017.jsconf.eu/speakers/ashley-williams-a-brief-history-of-modularity.html Slides: https://ashleygwilliams.github.io/jsconfeu-2017/#1 “MAKE IT MODULAR,” they said. “IT WILL BE...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vypCsVm5z28/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vypCsVm5z28/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vypCsVm5z28/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/FPB8DwSN2WY2ZXXhduo6okBtMO0\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lJ1kY-CSpBk"
+      },
+      "snippet": {
+        "publishedAt": "2015-09-28T09:08:42.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Nested Loops – JSConf EU 2015 Opening Performance",
+        "description": "By @thedeftone @kahliltweets @bonotes.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lJ1kY-CSpBk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lJ1kY-CSpBk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lJ1kY-CSpBk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/WOs4KBVs5e4-g4R2aSw6cixVwzs\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "EcG5ll_6fJk"
+      },
+      "snippet": {
+        "publishedAt": "2017-07-31T14:09:31.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Chen Shay: You don't need AMP for that | JSConf EU 2017",
+        "description": "But it makes things so nice and easy :) AMP at its heart is a JavaScript library for building super fast static web pages. Being purely web tech based, we can understand how it works and take...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EcG5ll_6fJk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EcG5ll_6fJk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EcG5ll_6fJk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/fZ1ciPrABkZAOeR7Y29NqClOC30\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9oGQucDOaoY"
+      },
+      "snippet": {
+        "publishedAt": "2015-10-15T19:57:17.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Denis Radin: Rendering HTML via WebGL | JSConf EU 2015",
+        "description": "In the recent time Web development community had a big discussion on “DOM is slow” topic. This thesis is truthful. DOM is a quite complex model which starts a ripple of events or chain...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9oGQucDOaoY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9oGQucDOaoY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9oGQucDOaoY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/XNN31XTNBwV_Iw0ahilAMkrx3I4\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-mxPPmQs2G8"
+      },
+      "snippet": {
+        "publishedAt": "2017-10-10T10:54:39.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Impressions of JSConf EU 2017",
+        "description": "This was 2017. JSConf EU 2018 is happening June 2nd + 3rd in Berlin, Germany https://2018.jsconf.eu/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-mxPPmQs2G8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-mxPPmQs2G8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-mxPPmQs2G8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/wD0bfUGiIwXpRO9qWyGkEbiYjAE\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "16oLi1kvLHs"
+      },
+      "snippet": {
+        "publishedAt": "2015-12-27T03:52:08.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Mathieu 'p01' Henri: Making Realtime Audio-Visuals - JSConf.Asia 2015",
+        "description": "The web platform is a wonderful playground of artistic and technical expression. The artists of the web often release amazing creations in the most compact form. But you don't have to be a...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/16oLi1kvLHs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/16oLi1kvLHs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/16oLi1kvLHs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/IRhftDKdHpwC8KfRVpAoTuBps6Q\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "EAaweXzUVh4"
+      },
+      "snippet": {
+        "publishedAt": "2017-05-30T18:16:52.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Emil Bay:  Keeping passwords safe in 2017 | JSConf EU 2017",
+        "description": "http://2017.jsconf.eu/speakers/emil-bay-keeping-passwords-safe-in-2017.html Every other week there seems to be a new dump of cracked passwords, hurting innocent and unbeknownst users. It seems...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EAaweXzUVh4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EAaweXzUVh4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EAaweXzUVh4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/RMc-pbl_fjbbqlXQdnXLYEwHFoA\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1bKWIp-eVQE"
+      },
+      "snippet": {
+        "publishedAt": "2017-07-25T05:03:19.000Z",
+        "channelId": "UCvFAekDfG_dL2Kcbq-vrPXQ",
+        "title": "Compile-time Optimizations in Frontend Engineering - Evan You · JSConf China 2017",
+        "description": "JSConf China 2017 organized by Wiredcraft - https://wiredcraft.com/. JSConf China is a two-day developer-driven, non-profit conference where both local and International JS community share...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1bKWIp-eVQE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1bKWIp-eVQE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1bKWIp-eVQE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Wiredcraft",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/zsHOMQ0wDVNL-F8s0KUScuS4abo\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "RdKT70ktaeo"
+      },
+      "snippet": {
+        "publishedAt": "2017-06-01T03:36:33.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Maggie Pint: Sharing is Caring - Patterns for JavaScript Library Design | JSConf EU 2017",
+        "description": "http://2017.jsconf.eu/speakers/maggie-pint-sharing-is-caring-patterns-for-javascript-library-design.html Do you want to show your caring for the JavaScript community by doing some sharing?...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RdKT70ktaeo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RdKT70ktaeo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RdKT70ktaeo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/mXWLtH_Os738loLNb1Ki_YAcDQo\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gE9xn-KOp1I"
+      },
+      "snippet": {
+        "publishedAt": "2017-06-01T03:37:03.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Claudia Hernández: Down the Rabbit Hole: Javascript in Wonderland | JSConf EU 2017",
+        "description": "http://2017.jsconf.eu/speakers/claudia-hernndez-down-the-rabbit-hole-javascript-in-wonderland.html What even makes sense in Javascript ? For a language originally created in 10 days it surely...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gE9xn-KOp1I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gE9xn-KOp1I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gE9xn-KOp1I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/u1wQqlx78euuNHx-qKaOR_iNrB8\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9SHOfZI_SsM"
+      },
+      "snippet": {
+        "publishedAt": "2017-05-25T13:44:51.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Alexander Reardon: Let's go big (Big numbers in JavaScript) | JSConf EU 2017",
+        "description": "http://2017.jsconf.eu/speakers/alexander-reardon-lets-go-big.html Do you feel limited, boxed in, like you are unable to grow? Try to imagine how numbers in JavaScript feel - they are stuck...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9SHOfZI_SsM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9SHOfZI_SsM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9SHOfZI_SsM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/pPqVKE7pbDJ2MAs8KWet0cY2CqI\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yD2lMmmjB2E"
+      },
+      "snippet": {
+        "publishedAt": "2015-12-11T12:27:44.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Tim Oxley: The Structure of Node.JS Applications - JSConf.Asia 2015",
+        "description": "The Node.JS & npm ecosystem is oft praised for it's \"culture of extreme modularity\", which has led to the proliferation of hundreds of thousands packages on npm. How do modular patterns translate...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yD2lMmmjB2E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yD2lMmmjB2E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yD2lMmmjB2E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/GNf79mUe8WU41eOjwWIu7_JlZzo\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "qbKWsbJ76-s"
+      },
+      "snippet": {
+        "publishedAt": "2013-10-14T15:02:07.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Forbes Lindesay: Promises and Generators: control flow utopia -- JSConf EU 2013",
+        "description": "Slides: http://pag.forbeslindesay.co.uk I will talk about how ES6 generators can help you make your asynchronous code easier to understand in terms of synchronous concepts. I will discuss the...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qbKWsbJ76-s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qbKWsbJ76-s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qbKWsbJ76-s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/sYRlZygzeZq7GN61_QleJMEXEME\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XcS-LdEBUkE"
+      },
+      "snippet": {
+        "publishedAt": "2014-11-20T16:12:41.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "James Coglan: Practical functional programming: pick two | JSConf EU 2014",
+        "description": "We often talk about JavaScript as a 'functional programming language'. This is mostly because it has first-class functions, but there is far more to functional programming than that. Immutable...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XcS-LdEBUkE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XcS-LdEBUkE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XcS-LdEBUkE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/Xky2Ct6QMZpO9YpNASeKFGoN5hU\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "515pkXWHgnE"
+      },
+      "snippet": {
+        "publishedAt": "2017-07-25T09:05:51.000Z",
+        "channelId": "UCvFAekDfG_dL2Kcbq-vrPXQ",
+        "title": "Understanding Modern Web Development - dexteryy/杨扬 · JSConf China 2017",
+        "description": "JSConf China 2017 organized by Wiredcraft - https://wiredcraft.com/. JSConf China is a two-day developer-driven, non-profit conference where both local and International JS community share...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/515pkXWHgnE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/515pkXWHgnE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/515pkXWHgnE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Wiredcraft",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/0p9zQ7jH6fCtg_DwWtAdjqjjSoE\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zcSbOl8DYXM"
+      },
+      "snippet": {
+        "publishedAt": "2016-09-21T10:35:45.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "David Blurton: Full-stack JavaScript development with Docker - JSConf Iceland 2016",
+        "description": "Docker is great for wrapping up your application with its environment, but until recently it's not been a great experience for development. The new release of docker for mac and windows changes...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zcSbOl8DYXM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zcSbOl8DYXM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zcSbOl8DYXM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/YkiPyuJs919gNKLrYvmdzdWF2Ao\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Fg7niTmNNLg"
+      },
+      "snippet": {
+        "publishedAt": "2017-05-18T13:48:26.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Marja Hölttä: Parsing JavaScript - better lazy than eager? | JSConf EU 2017",
+        "description": "http://2017.jsconf.eu/speakers/marja-hoelttae-parsing-javascript-better-lazy-than-eager.html Parsing JavaScript fast is critical for fast web page startup. We'll look at challenges posed...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Fg7niTmNNLg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Fg7niTmNNLg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Fg7niTmNNLg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/Eg3Lf4zQS1iXCM8BjbiOkDQni0Y\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NGxVLnJKhP8"
+      },
+      "snippet": {
+        "publishedAt": "2016-09-16T09:58:22.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Lin Clark: A cartoon guide to performance in React - JSConf Iceland 2016",
+        "description": "Everyone talks about how performant React is... but why? What makes people talk about how speedy React is? In this talk, you'll learn why people talk about React being fast, and what you can...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NGxVLnJKhP8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NGxVLnJKhP8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NGxVLnJKhP8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/77Ecr0bL_RCtTXjW85_Qw9XqmAk\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "h-QPx0sMvLQ"
+      },
+      "snippet": {
+        "publishedAt": "2017-06-12T14:06:25.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Whitney Williams: The Legacy of the JavaScript Community | JSConf EU 2017",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/h-QPx0sMvLQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/h-QPx0sMvLQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/h-QPx0sMvLQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/b4rOzZkK8MtiNdPxrMZikGFTdeA\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "H52HezWtmm4"
+      },
+      "snippet": {
+        "publishedAt": "2016-12-06T11:09:13.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Kelsey Bresemann: How To Talk To Hardware - JSConf.Asia 2016",
+        "description": "I'll introduce hardware communication as a how-to-walkthrough from digital signals up to a practical application through a series of code and signal demonstrations. This talk is aimed at...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/H52HezWtmm4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/H52HezWtmm4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/H52HezWtmm4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/RZzzonsF-2S1f6hauv48Q4UKDPE\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vvqfmskTIjE"
+      },
+      "snippet": {
+        "publishedAt": "2017-05-26T13:47:58.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Nidin Vinayakan: Shared Memory & Parallel Programming with JavaScript | JSConf EU 2017",
+        "description": "http://2017.jsconf.eu/speakers/nidin-vinayakan-shared-memory-parallel-programming-with-javascript.html Early look in to the upcoming JavaScript features SharedArrayBuffer and Atomics. I will...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vvqfmskTIjE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vvqfmskTIjE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vvqfmskTIjE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/fcymUPveVFh4P-MrAnXc_hAKzsk\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HktWin_LPf4"
+      },
+      "snippet": {
+        "publishedAt": "2017-05-16T13:46:50.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Lin Clark: A Cartoon Intro to WebAssembly | JSConf EU 2017",
+        "description": "http://2017.jsconf.eu/speakers/lin-clark-a-cartoon-intro-to-webassembly.html WebAssembly is fast. It's being called “the future of the web”. It's speed and potential have major browser...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HktWin_LPf4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HktWin_LPf4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HktWin_LPf4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/xxmQzyCSK0d73jD_n6Sv4-i8k-4\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_H1s9wBOqp8"
+      },
+      "snippet": {
+        "publishedAt": "2017-06-02T14:10:11.000Z",
+        "channelId": "UCzoVCacndDCfGDf41P-z0iA",
+        "title": "Monica Dinculescu:  Emoji, Web Components, and Art | JSConf EU 2017",
+        "description": "http://2017.jsconf.eu/speakers/monica-dinculescu-emoji-web-components-and-art.html Making art on the web is easy, if you got the right tools. HTML has styled divs. JavaScript has canvas. I...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_H1s9wBOqp8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_H1s9wBOqp8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_H1s9wBOqp8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JSConf",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/fUZ_GMNwez-3P77HsBWwZk-nis4\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "0iAF-fHQsMg"
+      },
+      "snippet": {
+        "publishedAt": "2017-08-01T06:25:11.000Z",
+        "channelId": "UCvFAekDfG_dL2Kcbq-vrPXQ",
+        "title": "JavaScript in the post ES6 Era - Hax/贺师俊 · JSConf China 2017",
+        "description": "JSConf China 2017 organized by Wiredcraft - https://wiredcraft.com/. JSConf China is a two-day developer-driven, non-profit conference where both local and International JS community share...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0iAF-fHQsMg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0iAF-fHQsMg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0iAF-fHQsMg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Wiredcraft",
+        "liveBroadcastContent": "none"
+      }
+    }
+  ]
+}

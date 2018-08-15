@@ -1,0 +1,22 @@
+<div class="detail-panel">
+  <div id="selected-video" class="selected-video">
+    <div id="video-player"></div>
+    <div class="video-details">
+      <em class="tags"><% _.forEach(tags, function(tag) { %><span class="tag">#<%= tag %></span><% }) %></em>
+      <h2 class="title"><%= title %></h2>
+      <div class="channel"><%= channel %></div>
+      <p class="desc"><%= description %></p>
+    </div>
+    <div class="video-meta">
+      <span class="view-count">조회수 <%= viewCount %>회</span>
+      <div class="meta-right">
+        <span class="duration"><span class="material-icons">access_time</span><%= duration %></span>
+        <span class="like-count"><span class="material-icons">thumb_up_alt</span><%= likeCount %></span>
+        <span class="dislike-count"><span class="material-icons">thumb_down_alt</span><%= dislikeCount %></span>
+      </div>
+    </div>
+  </div>
+  <div class="related-video-list">
+    <ul id="related-video-list" class="video-list"></ul>
+  </div>
+</div>

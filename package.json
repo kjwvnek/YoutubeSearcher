@@ -1,0 +1,40 @@
+{
+  "name": "VanillaTube",
+  "version": "1.0.0",
+  "description": "Vanilla Javascript Training",
+  "main": "bundle.js",
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "file-loader": "^0.11.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^2.30.1",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server --open",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanilla-coding/vanillatube.git"
+  },
+  "author": "Ken Huh <ken@vanillacoding.co>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanilla-coding/vanillatube/issues"
+  },
+  "homepage": "https://github.com/vanilla-coding/vanillatube#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "domify": "^1.4.0",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.5",
+    "rxjs": "^6.2.2"
+  }
+}

@@ -1,0 +1,11 @@
+<% _.forEach(videos, function(video) { %>
+<li class="video-item" data-video-id="<%= video.videoId %>" data-channel-id="<%= video.channelId%>">
+  <div class="frame">
+    <img src="<%= video.src %>" class="video-img" alt="">
+  </div>
+  <div class="info">
+    <strong class="video-title"><%= video.title %></strong>
+    <p class="video-desc"><%= video.description %></p>
+  </div>
+</li>
+<% }); %>
