@@ -1,145 +1,11 @@
-body,
-h1,h2,h3,h4,
-p,ul,li,
-input, button {
-  margin: 0;
-  padding: 0;
-}
-
-input, button {
-  background: transparent;
-  border: 0;
-}
-
-body {
-  font-family: 'SpoqaHanSans', 'san-serif';
-}
-
-h1 {
-  font-size: 45px;
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-.material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 22px;  /* Preferred icon size */
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-  vertical-align: top;
-
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}
+@import './variables';
+@import './common';
+@import './header';
 
 .app {
   min-width: 710px;
+  padding-top: 80px;
   background-color: #fcfcfc;
-}
-
-.header {
-  height: 56px;
-  padding: 0 20px;
-  border-bottom: 1px solid #ddd;
-  box-shadow: 0 0 1px 1px #eee;
-  background-color: #fff;
-  .title {
-    float: left;
-    height: 56px;
-    .text {
-      height: 56px;
-      font-size: 24px;
-      line-height: 60px;
-      color: #333;
-      &:first-letter {
-        color: #ff0000;
-      }
-    }
-  }
-  .user {
-    float: right;
-    height: 56px;
-    font-size: 16px;
-    line-height: 60px;
-  }
-  .search-select {
-    float: left;
-    position: relative;
-    box-sizing: border-box;
-    width: 80px;
-    height: 30px;
-    margin: 13px -1px 0 40px;
-    border: 1px solid #777;
-    text-align: center;
-    .label {
-      display: block;
-      width: 100%;
-      height: 28px;
-      font-size: 14px;
-      line-height: 30px;
-    }
-    .select-layer {
-      display: none;
-      position: absolute;
-      top: 28px;
-      left: -1px;
-      box-sizing: border-box;
-      width: 80px;
-      border: 1px solid #777;
-      background-color: #fff;
-    }
-    .select-option {
-      display: block;
-      width: 100%;
-      height: 30px;
-      font-size: 14px;
-      line-height: 30px;
-      & + .select-option {
-        border-top: 1px solid #999;
-      }
-    }
-  }
-  .search-bar {
-    position: relative;
-    overflow: hidden;
-    padding: 13px 90px 13px 0;
-    height: 30px;
-  }
-  .video-search-input {
-    display: block;
-    width: 100%;
-    height: 100%;
-    border: 1px solid #777;
-    font-size: 14px;
-    text-indent: 12px;
-  }
-  .youtube-search-button {
-    position: absolute;
-    top: 13px;
-    right: 41px;
-    width: 50px;
-    height: 30px;
-    border: 1px solid #777;
-    font-size: 14px;
-  }
-  &::after {
-    content: '';
-    display: block;
-    clear: both;
-  }
 }
 
 .container::after {
@@ -165,16 +31,17 @@ a {
     margin-top: 40px;
   }
   .home-section-title {
-    margin-bottom: 10px;
-    border-bottom: 2px solid #f2f2f2;
+    margin-bottom: 5px;
     .text {
-      display: inline-block;
-      padding: 0 60px 0 10px;
-      background: linear-gradient(180deg, #ccc, #f2f2f2);
-      border-radius: 20px 80px 0 0;
+      display: block;
+      padding: 0 10px;
+      background: linear-gradient(180deg, #EAEAEA, #FFF);
       font-size: 20px;
-      line-height: 36px;
+      line-height: 40px;
       vertical-align: top;
+      &:first-letter {
+        color: @col-blue;
+      }
     }
   }
   .video-list {

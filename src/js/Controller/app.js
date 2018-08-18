@@ -1,61 +1,26 @@
-import Component from '../Component';
-import router from "../Router";
-import { delegateEvent } from "../Util";
+import AppComponent from '../Component/App'
+import HeaderComponent from '../Component/Header'
+import YoutubeAPI from '../Ajax/youtube'
 
 const rootElement = document.getElementById('root');
+const appUI = AppComponent.create();
+const headerUI = HeaderComponent.create();
 
-const appUI = new Component.App({
-  data: {
-    title: null,
-    user: null
-  },
-  events: {
-    click: e => {
-      e.preventDefault();
-
-      delegateEvent('.header .title', e, e => {
-        router.forward(['home']);
-      });
-
-      delegateEvent('#youtube-search-button', e, e => {
-        let searchText = e.referee.previousElementSibling.value;
-        router.forward(['search'], {
-          app: {
-            doNotRender: true
-          },
-          search: {
-            searchText: searchText
-          }
-        });
-      });
-    },
-    keydown: e => {
-      delegateEvent('#youtube-search-textfield', e, e => {
-        if (e.keyCode === 13) {
-          router.forward(['search'], {
-            app: {
-              doNotRender: true
-            },
-            search: {
-              searchText: e.referee.value
-            }
-          });
-        }
-      });
-    }
-  }
-});
 
 function appController(context, prevContext) {
   if (!context.doNotRender) {
-    appUI.view.updateContext({
-      title: 'VanillaTube',
-      user: 'Jaewon Kim'
-    });
     rootElement.innerHTML = '';
     appUI.setTarget(rootElement).render();
-  }
 
+    YoutubeAPI.getPromise('category').then(data => {
+      let headerElement = appUI.find('#header');
+      headerElement.innerHTML = '';
+      headerUI.view.updateContext({
+        categories: data
+      });
+      headerUI.setTarget(headerElement).render();
+    });
+  }
   return appUI;
 }
 

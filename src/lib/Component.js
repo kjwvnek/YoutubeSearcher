@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import View from './View';
 
-import templateEngine from '../../templates/index';
+import templateEngine from '../templates/index';
 
 function validator(data, title) {
   if (!data) {

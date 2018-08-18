@@ -1,0 +1,27 @@
+<a href="#" id="header-title" class="title"><h1 class="text"><%= title %></h1></a>
+<p class="user"><%= user %></p>
+<div class="area-search">
+  <button type="button" id="btn-category-select" class="btn-category">Category<span class="material-icons">arrow_drop_down</span></button>
+  <div class="search-bar">
+    <input id="youtube-search-textfield" class="video-search-input" type="text" placeholder="Search Keyword"/>
+    <button id="youtube-search-button" class="youtube-search-button">
+      <span class="material-icons">search</span>
+    </button>
+  </div>
+</div>
+<div id="popup-category" class="popup-category" style="display:none">
+  <form id="form-category">
+    <ul class="list">
+      <li class="item">
+        <input type="radio" name="category" value="null" id="radio-category-all" class="radio" checked>
+        <label for="radio-category-all" class="category-label label-all">All</label>
+      </li>
+      <% _.forEach(categories, function(label, id) { %>
+      <li class="item">
+        <input type="radio" name="category" value="<%= id %>" id="radio-category-<%= id %>" class="radio">
+        <label for="radio-category-<%= id %>" class="category-label"><%= label %></label>
+      </li>
+      <% }) %>
+    </ul>
+  </form>
+</div>

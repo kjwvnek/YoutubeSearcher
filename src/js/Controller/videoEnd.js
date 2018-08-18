@@ -1,31 +1,13 @@
-import Component from "../Component";
+import VideoEndComponent from "../Component/VideoEnd";
 import VideoListComponent from '../Component/VideoList';
 import VideoPlayerComponent from '../Component/VideoPlayer';
-import * as GET from "../Ajax/get";
+import YoutubeAPI from "../Ajax/youtube";
 import async from "async";
 import { infinityScroll } from "./searchedVideos";
 
-const videoEndUI = new Component.VideoEnd({
-  data: {
-    videoFrame: null,
-    duration: null,
-    title: null,
-    channel: null,
-    description: null,
-    tags: null,
-    viewCount: null,
-    likeCount: null,
-    dislikeCount: null
-  }
-});
-
-const videoPlayerUI = new VideoPlayerComponent();
-
-const relatedVideoListUI = new VideoListComponent({
-  data: {
-    videos: null
-  }
-});
+const videoEndUI = VideoEndComponent.create();
+const videoPlayerUI = VideoPlayerComponent.create();
+const relatedVideoListUI = VideoListComponent.create();
 
 function videoEndDataToContext(data) {
   let videoItem = data.items[0];
@@ -59,9 +41,9 @@ function videoEndController(context, prevContext) {
 
   async.waterfall([
     function(callback) {
-      GET.VideoItemById({
+      YoutubeAPI.getPromise('videoItemById', {
         videoId: context.videoId
-      }, data => {
+      }).then(data => {
         let containerElement = prevContext.find('#container');
         containerElement.innerHTML = '';
         videoEndUI.view.updateContext(videoEndDataToContext(data));
@@ -72,20 +54,20 @@ function videoEndController(context, prevContext) {
 
         let channelId = data.items[0].snippet.channelId;
         callback(null, channelId);
-      });
+      })
     },
     function(channelId, callback) {
-      GET.VideoListByActivities({
+      YoutubeAPI.getPromise('videoListByActivities', {
         channelId: channelId,
         maxResults: 8
-      }, data => {
+      }).then(data => {
         let videoListElement = videoEndUI.find('#related-video-list');
         videoListElement.innerHTML = '';
         relatedVideoListUI.view.updateContext(videoListDataToContext(data));
         relatedVideoListUI.setTarget(videoListElement).render();
 
         callback(null);
-      });
+      })
     }
   ]);
 }

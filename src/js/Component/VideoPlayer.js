@@ -1,4 +1,4 @@
-import Component from "../../lib/gorilla/Component";
+import Component from "../../lib/Component";
 
 const playerData = {
   playerIframe: null,
@@ -12,11 +12,28 @@ const playerData = {
 let player;
 let isCreated = false;
 
-function VideoPlayerComponent(options) {
-  options = options || {};
-  options.templateName = 'videoPlayer';
+class VideoPlayer extends Component {
+  constructor(options) {
+    options = options || {};
+    options.templateName = 'videoPlayer';
+    super(options);
+  }
 
-  Component.call(this, options);
+  loadVideo(videoId) {
+    playerData.videoId = videoId;
+
+    if (!isCreated) {
+      window.onYouTubeIframeAPIReady = onYouTubeIframeAPIReady;
+      let apiScriptTag = document.createElement('script');
+      apiScriptTag.src = "https://www.youtube.com/iframe_api";
+      apiScriptTag.id = 'youtube-api-iframe';
+      document.body.appendChild(apiScriptTag);
+
+      isCreated = true;
+    } else {
+      onYouTubeIframeAPIReady()
+    }
+  }
 }
 
 function onYouTubeIframeAPIReady() {
@@ -25,50 +42,28 @@ function onYouTubeIframeAPIReady() {
     height: playerData.height,
     videoId: playerData.videoId,
     events: {
-      'onReady': onPlayerReady,
-      'onStateChange': onPlayerStateChange
+      onReady: function(event) {
+        player.seekTo(playerData.memo[playerData.videoId]);
+      },
+      onStateChange: function(event) {
+        if (event.data === YT.PlayerState.PLAYING && playerData.memoInterval === null) {
+          playerData.memoInterval = setInterval(() => {
+            if (player.hasOwnProperty('getCurrentTime')) {
+              playerData.memo[playerData.videoId] = player.getCurrentTime();
+              sessionStorage.setItem('playData', JSON.stringify(playerData.memo));
+            }
+          }, 1000);
+        } else if (event.data !== YT.PlayerState.PLAYING && playerData.memoInterval !== null) {
+          clearInterval(playerData.memoInterval);
+          playerData.memoInterval = null;
+        }
+      }
     }
   });
 
   playerData.playerIframe = player.getIframe();
 }
 
-function onPlayerReady(event) {
-  player.seekTo(playerData.memo[playerData.videoId]);
+export default {
+  create: () => (new VideoPlayer())
 }
-
-function onPlayerStateChange(event) {
-  if (event.data === YT.PlayerState.PLAYING && playerData.memoInterval === null) {
-    playerData.memoInterval = setInterval(() => {
-      if (player.hasOwnProperty('getCurrentTime')) {
-        playerData.memo[playerData.videoId] = player.getCurrentTime();
-        sessionStorage.setItem('playData', JSON.stringify(playerData.memo));
-      }
-    }, 1000);
-  } else if (event.data !== YT.PlayerState.PLAYING && playerData.memoInterval !== null) {
-    clearInterval(playerData.memoInterval);
-    playerData.memoInterval = null;
-  }
-}
-
-VideoPlayerComponent.prototype = Object.create(Component.prototype);
-
-VideoPlayerComponent.prototype.constructor = VideoPlayerComponent;
-
-VideoPlayerComponent.prototype.loadVideo = function(videoId) {
-  playerData.videoId = videoId;
-
-  if (!isCreated) {
-    window.onYouTubeIframeAPIReady = onYouTubeIframeAPIReady;
-    let apiScriptTag = document.createElement('script');
-    apiScriptTag.src = "https://www.youtube.com/iframe_api";
-    apiScriptTag.id = 'youtube-api-iframe';
-    document.body.appendChild(apiScriptTag);
-
-    isCreated = true;
-  } else {
-    onYouTubeIframeAPIReady()
-  }
-};
-
-export default VideoPlayerComponent;

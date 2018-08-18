@@ -1,19 +1,10 @@
 import { fromEvent } from "rxjs"
-import Component from '../Component';
+import SearchedVideosComponent from '../Component/SearchedVideos';
 import VideoListComponent from '../Component/VideoList';
-import * as GET from "../Ajax/get";
+import YoutubeAPI from "../Ajax/youtube";
 
-const searchedVideosUI = new Component.SearchedVideos({
-  data: {
-    searchText: null
-  }
-});
-
-const searchedVideoListUI = new VideoListComponent({
-  data: {
-    videos: null
-  }
-});
+const searchedVideosUI = SearchedVideosComponent.create();
+const searchedVideoListUI = VideoListComponent.create();
 
 const infinityScroll = {
   subscriber: null,
@@ -27,12 +18,13 @@ const infinityScroll = {
       infinityScroll.unsubscribe();
 
       if (!infinityScroll.end) {
-        GET.VideoListBySearchText({
+        YoutubeAPI.getPromise('videoListBySearchText', {
           searchText: searchedVideosUI.searchText,
           maxResults: infinityScroll.perPage,
           pageToken: infinityScroll.pageToken
-        }, data => {
-          let newVideoListUI = new VideoListComponent({ data: videoListDataToContext(data) });
+        }).then(data => {
+          let newVideoListUI = VideoListComponent.create();
+          newVideoListUI.view.updateContext(videoListDataToContext(data));
           newVideoListUI.setTarget(searchedVideosUI.find('#searched-video-list')).render();
 
           infinityScroll.nowPage++;
@@ -70,13 +62,21 @@ function videoListDataToContext(data) {
 function searchedVideosController(context, prevContext) {
   let containerElement = prevContext.find('#container');
   containerElement.innerHTML = '';
-  searchedVideosUI.view.updateContext({ searchText: context.searchText });
+  searchedVideosUI.view.updateContext({
+    searchText: context.searchText,
+    categoryId: context.categoryId
+  });
   searchedVideosUI.setTarget(containerElement).render();
 
-  GET.VideoListBySearchText({
+  YoutubeAPI.getPromise('videoListBySearchText', {
     searchText: searchedVideosUI.searchText,
+    categoryId: searchedVideosUI.categoryId,
     maxResults: infinityScroll.perPage
-  }, data => {
+  }).then(data => {
+    if (data.items.length === 0) {
+      searchedVideosUI.find('#msg-empty').style.display = 'block';
+    }
+
     let videoListElement = searchedVideosUI.find('#searched-video-list');
     videoListElement.innerHTML = '';
     searchedVideoListUI.view.updateContext(videoListDataToContext(data));
@@ -85,7 +85,7 @@ function searchedVideosController(context, prevContext) {
     infinityScroll.nowPage = 1;
     infinityScroll.pageToken = data.nextPageToken;
     infinityScroll.subscribe();
-  });
+  })
 }
 
 export default searchedVideosController;

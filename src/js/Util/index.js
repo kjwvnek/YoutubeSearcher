@@ -24,3 +24,25 @@ export function delegateEvent(selector, e, eventHandler) {
     eventHandler(e);
   }
 }
+
+export function removeWhiteSpace(str) {
+  return str.replace(/\s/g, '');
+}
+
+export function fieldsToUri(fields) {
+  let strBuffer = [];
+
+  for (let field in fields) {
+    if (fields.hasOwnProperty(field)) {
+      let nextFields = fields[field];
+
+      if (Array.isArray(nextFields)) {
+        strBuffer.push(`${field}(${nextFields.join(',')})`)
+      } else if (typeof nextFields === 'object') {
+        strBuffer.push(`${field}(${fieldsToUri(nextFields)})`);
+      }
+    }
+  }
+
+  return strBuffer.join(',');
+}

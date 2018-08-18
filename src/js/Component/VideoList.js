@@ -1,28 +1,32 @@
-import router from "../Router";
-import Component from "../../lib/gorilla/Component";
-import { delegateEvent } from "../Util";
+import Component from "../../lib/Component";
+import router from "../Router/index";
+import { delegateEvent } from "../Util/index";
 
-VideoListComponent.prototype = Object.create(Component.prototype);
-
-VideoListComponent.prototype.constructor = VideoListComponent;
-
-function VideoListComponent(options) {
-  options = options || {};
-  options.templateName = 'videoList';
-  options.events = {
-    click: e => {
-      delegateEvent('.video-item', e, e => {
-        let videoId = e.referee.dataset.videoId;
-
-        router.forward(['video'], {
-          video: {
-            videoId: videoId
-          }
-        });
-      });
-    }
-  };
-  Component.call(this, options);
+class VideoList extends Component {
+  constructor(options) {
+    options = options || {};
+    options.templateName = 'videoList';
+    super(options);
+  }
 }
 
-export default VideoListComponent;
+export default {
+  create: () => (new VideoList({
+    data: {
+      videos: null
+    },
+    events: {
+      click: function onClikcVideoList(e) {
+        delegateEvent('.video-item', e, function(e) {
+          let videoId = e.referee.dataset.videoId;
+
+          router.forward(['video'], {
+            video: {
+              videoId: videoId
+            }
+          });
+        });
+      }
+    }
+  }))
+};

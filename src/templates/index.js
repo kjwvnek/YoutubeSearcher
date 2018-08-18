@@ -1,4 +1,5 @@
 import appTemplate from './app.html';
+import headerTemplate from './header.html';
 import homeTemplate from './home.html';
 import searchedVideosTemplate from './searchedVideos.html';
 import videoEndTemplate from './videoEnd.html';
@@ -7,6 +8,7 @@ import videoPlayerTemplate from './videoPlayer.html';
 
 const templates = {
   app: appTemplate,
+  header: headerTemplate,
   home: homeTemplate,
   searchedVideos: searchedVideosTemplate,
   videoEnd: videoEndTemplate,
@@ -14,10 +16,8 @@ const templates = {
   videoList: videoListTemplate,
 };
 
-const getter = function(templateName) {
-  return templates[templateName] || null;
-};
-
 export default {
-  get: getter
+  get: function(templateName) {
+    return templates[templateName] || null;
+  }
 }

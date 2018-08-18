@@ -27,7 +27,10 @@ View.prototype.registerEvent = function(eventName, cb, selector) {
   }
 
   targets.forEach(function(targetEl) {
-    targetEl.addEventListener(eventName, cb);
+    targetEl.addEventListener(eventName, function(e) {
+      e.viewElement = el;
+      cb(e);
+    });
   });
 };
 

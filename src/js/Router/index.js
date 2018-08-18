@@ -1,4 +1,4 @@
-import Router from "../../lib/gorilla/Router";
+import Router from "../../lib/Router";
 import appController from "../Controller/app";
 import homeController from "../Controller/home";
 import searchedVideosController from "../Controller/searchedVideos";

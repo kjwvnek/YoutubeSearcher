@@ -1,27 +1,12 @@
-import Component from '../Component';
+import HomeComponent from '../Component/Home';
 import VideoListComponent from '../Component/VideoList';
-import * as GET from "../Ajax/get";
+import YoutubeAPI from "../Ajax/youtube";
 import { infinityScroll } from "./searchedVideos"
 
-const homeUI = new Component.Home();
-
-const jsVideoListUI = new VideoListComponent({
-  data: {
-    videos: null
-  }
-});
-
-const pythonVideoListUI = new VideoListComponent({
-  data: {
-    videos: null
-  }
-});
-
-const cPlusPlusVideoListUI = new VideoListComponent({
-  data: {
-    videos: null
-  }
-});
+const homeUI = HomeComponent.create();
+const jsVideoListUI = VideoListComponent.create();
+const pythonVideoListUI = VideoListComponent.create();
+const cPlusPlusVideoListUI = VideoListComponent.create();
 
 function videoListDataToContext(data) {
   return {
@@ -42,30 +27,30 @@ function homeController(context, prevContext) {
   containerElement.innerHTML = '';
   homeUI.setTarget(containerElement).render();
 
-  GET.VideoListBySearchText({
+  YoutubeAPI.getPromise('videoListBySearchText', {
     searchText: 'programming javascript',
-    maxResults: 10
-  }, data => {
+    maxResults: 20
+  }).then(data => {
     let videoListElement = homeUI.find('#javascript-video-list');
     videoListElement.innerHTML = '';
     jsVideoListUI.view.updateContext(videoListDataToContext(data));
     jsVideoListUI.setTarget(videoListElement).render();
   });
 
-  GET.VideoListBySearchText({
+  YoutubeAPI.getPromise('videoListBySearchText', {
     searchText: 'programming python',
-    maxResults: 10
-  }, data => {
+    maxResults: 20
+  }).then(data => {
     let videoListElement = homeUI.find('#python-video-list');
     videoListElement.innerHTML = '';
     pythonVideoListUI.view.updateContext(videoListDataToContext(data));
     pythonVideoListUI.setTarget(videoListElement).render();
   });
 
-  GET.VideoListBySearchText({
+  YoutubeAPI.getPromise('videoListBySearchText', {
     searchText: 'programming c++',
-    maxResults: 10
-  }, data => {
+    maxResults: 20
+  }).then(data => {
     let videoListElement = homeUI.find('#c-plus-plus-video-list');
     videoListElement.innerHTML = '';
     cPlusPlusVideoListUI.view.updateContext(videoListDataToContext(data));
